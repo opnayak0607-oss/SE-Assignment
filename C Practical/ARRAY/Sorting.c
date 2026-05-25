@@ -10,6 +10,7 @@ int main(){
 {
 		for(j=0;j<5-1-i;j++)
 	{
+		
 		if(arr[j]>arr[j+1])
 		{
 		temp=arr[j];

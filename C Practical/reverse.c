@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main(){
 	int num,rem,rev;
@@ -7,7 +8,7 @@ int main(){
 		
 		rem=num%10;
 		rev=rev*10+rem;
-		//printf("\n rem=%d rev=%d",rem,rev);
+		printf("\n rem=%d rev=%d",rem,rev);
 		num = num/10;
 	}
 	printf("\n %d",rev);
