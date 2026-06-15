@@ -13,7 +13,5 @@ main(){
 	for(i=0;i<5;i++){
 		printf("\n a[%d]=%d",i,a[i]);
 	}
-	printf("\n addition of array elements =%d",sum);
-
-	
+	printf("\n addition of array elements =%d",sum);	
 }
